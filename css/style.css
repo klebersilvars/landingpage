@@ -1,0 +1,269 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: 'universal';
+    src: url(/font/universal.ttf);
+}
+
+:root {
+
+    --cor1: #EAEAEA;
+    --cor2: #2E2E2C;
+    --cor3: #2690D4;
+    --cor4: #333333;
+
+
+    --fonte-padrao: Arial, sans-serif;
+    --fonte-titulo: 'universal', sans-serif;
+}
+    
+
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    height: 450px;
+    background: url('../img/foto-header1.jpg');
+}
+
+header h1 {
+    color: white;
+    font-family: var(--fonte-padrao);
+    margin-left: 100px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+header p {
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    margin-left: 472px;
+    padding-top: 5px;
+    max-width: 500px
+}
+
+header button {
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 572px;
+    display: block;
+    color: white;
+    background-color: #2E2E2C;
+}
+
+header button:hover {
+    color: black;
+    background-color: #EAEAEA;
+}
+
+main {
+    background-color: var(--cor1);
+}
+
+.primeiro-quadrado {
+    height: 185px;
+}
+
+main h2 {
+    font-family: var(--fonte-padrao);
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.primeira-info{
+    text-align: center;
+    max-width: 400px;
+    margin-left: 460px;
+    font-weight: bold;
+    columns: 2;
+}
+
+.segundo-quadrado {
+    height: 350px;
+    background-color: var(--cor4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.segunda-info {
+    width: 250px;
+    height: 347px;
+    background-color: #FFFFFF;
+    margin-left: 350px;
+    display: inline-block;
+}
+
+.segunda-info h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.segunda-info img {
+    width: 250px;
+    height: 150px;
+}
+
+.segunda-info p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.terceira-info {
+    background-color: white;
+    width: 250px;
+    height: 347px;
+    margin-right: 420px;  
+    float: right;
+    display: inline-block;
+}
+
+.terceira-info h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.terceira-info p {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.terceira-info img {
+    width: 250px;
+    height: 150px;
+}
+
+.terceiro-quadrado {
+    background-color: var(--cor1);
+    height: 183px;
+}
+
+.terceiro-quadrado h3 {
+    font-family: var(--fonte-padrao);
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2em;
+}
+
+.terceiro-quadrado p {
+    text-align: center;
+    max-width: 400px;
+    margin-left: 460px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.quarto-quadrado {
+    background-color: var(--cor3);
+    float: left;
+    height: 273px;
+    width: 50%;
+    display: inline-block;
+}
+
+.contato h3 {
+    text-align: center;
+    color: white;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+.contato p {
+    text-align: center;
+    text-indent: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 17px;
+}
+
+.about {
+    background-color: var(--cor4);
+    height: 273px;
+}
+
+.about h3 {
+    color: white;
+    text-align: center;
+    font-size: 2.1em;
+    font-weight: bold;
+}
+
+.about p {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-indent: 50px;
+}
+
+.paragrafo-final-1 {
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.paragrafo-final-2 {
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.paragrafo-final-2 a {
+    text-decoration: none;
+    color: var(--cor3);
+}
+
+.paragrafo-final-2 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
